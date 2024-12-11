@@ -27,7 +27,7 @@ $(function () {
 
         if (usuarioOK) {
             console.log("funciona")
-            window.location.href = "bienvenida.html";
+            window.open("bienvenida.html");
 
         } else {
 
