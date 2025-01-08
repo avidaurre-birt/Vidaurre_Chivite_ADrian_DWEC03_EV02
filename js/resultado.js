@@ -27,7 +27,7 @@ $(function () {
 
     // Maneja el botón de reinicio
     reiniciar.addEventListener('click', function () {
-        window.location.href = 'index.html';
+        window.location.href = 'inicio.html';
     });
 
     // Maneja el botón de salir
