@@ -4,8 +4,10 @@ $(function () {
 
     var boton = document.querySelector("#login");
 
+    console.log("Entro en formulario.js")
 
-    $.getJSON('../data/usuarios.json', function (data) {
+    $.getJSON('/Vidaurre_Chivite_ADrian_DWEC03_EV02/data/usuarios.json', function (data) {
+
         // Almacenar datos en el LocalStorage
         localStorage.setItem('usuarios', JSON.stringify(data));
     });
