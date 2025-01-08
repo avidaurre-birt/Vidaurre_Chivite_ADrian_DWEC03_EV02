@@ -148,7 +148,7 @@ $(function () {
             if (tiempoRestante <= 0) {
                 clearInterval(intervalo);//Detiene la cuenta atras
                 alert("Se ha acabado el tiempo. REdiriguiendo al inicio de sesion");
-                window.location.href = "formulario.html";
+                window.location.href = "index.html";
             }
         }, 1000); // Intervalo de 1 segundo
 

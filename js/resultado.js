@@ -32,7 +32,7 @@ $(function () {
 
     // Maneja el botón de salir
     salir.addEventListener('click', function () {
-        window.location.href = 'formulario.html'; // Redirige a la interfaz de login
+        window.location.href = 'index.html'; // Redirige a la interfaz de login
     });
 
 
